@@ -474,9 +474,9 @@ a{
 .skill-fade-text{
     font-size: 15rem;
     font-style: bold;
-    color: rgb(231, 231, 231);
+    color: rgb(190, 182, 182);
     bottom: -34.5%;
-    right: -25%;
+    left: 700px;
     user-select: none;
     position: absolute;
     overflow-y: hidden;
@@ -768,6 +768,7 @@ footer{
     .form {
         width: 80%;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -821,13 +822,11 @@ footer{
         font-size: 1.5rem;
     }
 
-    .faded-text { 
-        display: none; 
-    } 
-
-    .skill-fade-text { 
-        display: none; 
-    } 
+    .skill-fade-text{
+        bottom: -13.5%;
+        left: 80px;
+        font-size: 130px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -867,4 +866,98 @@ footer{
 
 .icon:hover {
     color: #0077b5; 
+} */
+
+.footer-contact{
+    font-size: x-large;
+    font-family: bold;
+    color: #3f33f0;
+}
+
+@media (max-width: 768px) {
+  .contact-us-form-container {
+    padding: 1rem;
+  }
+
+  .formfield-container {
+    gap: 1rem;
+  }
+
+  .formfield,
+  .formfield-textarea,
+  .btn-pink {
+    font-size: 0.95rem;
+  }
+
+  .footer-wrapper{
+    align-items: center;
+    margin-left: -30px;
+  }
+
+  .footer-faded-text{
+    visibility: hidden;
+  }
+
+  .faded-text{
+    margin-bottom: 57px;
+    font-size: 50px;
+  }
+
+  /* .btn-pink {
+    width: 100%;
+    text-align: center;
+  } */
+
+  /* .submit-icon {
+    display: inline-block;
+  } */
+}
+
+.contact-us-form-container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formfield-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formfield {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.formfield-textarea {
+  resize: vertical;
+}
+
+/* .btn-pink {
+  background-color: #ff4f81;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+/* .btn-pink:hover {
+  background-color: #e8436f;
+} */
+
+/* .submit-icon {
+  margin-left: 0.5rem;
 } */
