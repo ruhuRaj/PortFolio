@@ -433,17 +433,17 @@ a{
 }
 
 #project1{
-    background-image: url(./images/projects/studyplanetcard.png);
+    background-image: url(./images/projects/Screenshot\ 2025-07-23\ 234507.png);
     background-size: contain;
 }
 #project2{
-    background-image: url(./images/projects/ecomzycard.png);
+    background-image: url(./images/projects/studyplanetcard.png);
     object-fit:fill;
     margin-left: 120px;
     background-size: contain;
 }
 #project3{
-    background-image: url(./images/projects/weather.png);
+    background-image: url(./images/projects/ecomzycard.png);
     background-size: contain;
 }
 
