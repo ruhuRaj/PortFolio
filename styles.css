@@ -838,6 +838,10 @@ footer{
         height: 250px;
     }
 
+    .project-content{
+        margin-top: -10%;
+    }
+
     .skills-logo {
         width: 70px;
     }
